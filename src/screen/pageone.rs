@@ -31,6 +31,6 @@ impl PageOne {
     }
 
     pub fn view<'a>(&self) -> Element<'a, Message> {
-        iced::widget::Container::new(iced::widget::Button::new("Next Page")).into()
+        iced::widget::Button::new("Page one").on_press(Message::ToNextPage).into()
     }
 }

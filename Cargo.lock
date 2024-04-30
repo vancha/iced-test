@@ -1069,9 +1069,9 @@ dependencies = [
 
 [[package]]
 name = "font-types"
-version = "0.5.2"
+version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bd6784a76a9c2b136ea3b8462391e9328252e938eb706eb44d752723b4c3a533"
+checksum = "bdf6aa1de86490d8e39e04589bd04eb5953cc2a5ef0c25e389e807f44fd24e41"
 dependencies = [
  "bytemuck",
 ]
@@ -1454,7 +1454,7 @@ checksum = "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df"
 [[package]]
 name = "iced"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "iced_core",
  "iced_futures",
@@ -1468,7 +1468,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "bitflags 2.5.0",
  "dark-light",
@@ -1487,7 +1487,7 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "futures",
  "iced_core",
@@ -1500,7 +1500,7 @@ dependencies = [
 [[package]]
 name = "iced_graphics"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "bitflags 2.5.0",
  "bytemuck",
@@ -1521,7 +1521,7 @@ dependencies = [
 [[package]]
 name = "iced_renderer"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "iced_graphics",
  "iced_tiny_skia",
@@ -1533,7 +1533,7 @@ dependencies = [
 [[package]]
 name = "iced_runtime"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "iced_core",
  "iced_futures",
@@ -1544,7 +1544,7 @@ dependencies = [
 [[package]]
 name = "iced_tiny_skia"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "bytemuck",
  "cosmic-text",
@@ -1559,7 +1559,7 @@ dependencies = [
 [[package]]
 name = "iced_wgpu"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "bitflags 2.5.0",
  "bytemuck",
@@ -1578,7 +1578,7 @@ dependencies = [
 [[package]]
 name = "iced_widget"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "iced_renderer",
  "iced_runtime",
@@ -1591,7 +1591,7 @@ dependencies = [
 [[package]]
 name = "iced_winit"
 version = "0.13.0-dev"
-source = "git+https://github.com/iced-rs/iced#e617d7e929bf7cb9aded39dea53d079e41b530d6"
+source = "git+https://github.com/iced-rs/iced#24501fd73b5ae884367a2d112ff44625058b876b"
 dependencies = [
  "iced_graphics",
  "iced_runtime",
@@ -1746,9 +1746,9 @@ checksum = "03087c2bad5e1034e8cace5926dec053fb3790248370865f5117a7d0213354c8"
 
 [[package]]
 name = "libc"
-version = "0.2.153"
+version = "0.2.154"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
+checksum = "ae743338b92ff9146ce83992f766a31066a91a8c84a45e0e9f21e7cf6de6d346"
 
 [[package]]
 name = "libloading"
@@ -2434,9 +2434,9 @@ dependencies = [
 
 [[package]]
 name = "read-fonts"
-version = "0.19.0"
+version = "0.19.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ea75b5ec052843434d263ef7a4c31cf86db5908c729694afb1ad3c884252a1b6"
+checksum = "af4749db2bd1c853db31a7ae5ee2fc6c30bbddce353ea8fedf673fed187c68c7"
 dependencies = [
  "bytemuck",
  "font-types",
